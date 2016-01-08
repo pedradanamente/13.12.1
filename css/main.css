@@ -1,0 +1,652 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ############################################################################## */
+/* INDEX CSS */
+/* ############################################################################## */
+
+.topo-900 {
+ 	width:900px;
+ 	height:38px;
+	margin: 0 auto;
+ 	background:rgba(0,0,0,1.0);
+ 	padding-top:10px;
+	padding-bottom:10px;
+ }
+ 	
+.topo-formulario {
+	float:right;
+	margin-right:10px;
+ }
+ 
+.topo-input {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-variant: small-caps;
+	border: 1px solid #363636;
+	background-color: rgba(0,0,0,0.8);                  
+	color: #90ee90;
+	height:34px;
+	width: 225px;
+	text-align:left;
+	padding:0px;
+	padding-left:5px;
+}
+	
+.topo-submit {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-variant: small-caps;
+	border: 1px solid #363636;
+	background-color: #90ee90;
+	color: #000;
+	text-align:center;
+	height: 36px;
+	width:100px;
+	font-weight:bold;
+}
+	
+.corpo-samurai {
+	float:left;
+}
+	
+.corpo-formulario {
+	float:right;
+}
+ 
+ .cadastro-input {
+ 	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-variant: small-caps;
+	border: 1px solid #363636;
+	background-color: rgba(0,0,0,0.9);                  
+	color: #ff6347;
+	height:30px;
+	width: 200px;
+	text-align:left;
+	padding:0px;
+	padding-left:5px;
+	margin-bottom:4px;
+}
+	
+.cadastro-submit {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-variant: small-caps;
+	border: 1px solid #363636;
+	background-color: #b22222;
+	color: #FFF;
+	text-align:center;
+	height: 36px;
+	width:208px;
+	font-weight:bold;
+}
+	
+.cadastro-formulario {
+	float:right;
+	margin-right:10px;
+	margin-top:6px;
+	background-color:rgba(255,255,255,0.4);
+}
+	
+.cadastro-title {
+	color:#006400;
+	font-weight:bold;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+
+	margin-top:5px;
+}
+	
+.sexo-select {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-variant: small-caps;
+	border: 1px solid rgba(255,255,255,0.8);
+	background-color: rgba(0,0,0,0.8);
+	color: #ff6347;
+	text-align:center;
+	height: 25px;
+	width:100px;
+	float:right;
+}
+	
+.sexo-txt {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	font-variant: small-caps;
+	text-align:right;
+	font-weight:bold;
+	color:#000;
+}
+ 
+ .alerta {
+ 	margin-top:-10px;
+	margin-left:-19px;
+	width:938px;
+}
+	
+.rodape-title1 {
+		font-size:16px;
+		font-family: Verdana, Geneva, sans-serif;
+		margin-left:20px;
+		margin-top:0px;
+		color:#FFF;
+}
+ 	 	
+ .rodape1 {
+	height:15px;
+	width:900px;
+	background:rgba(0,0,0,1);
+	padding-top:10px;
+	padding-bottom:10px;
+	margin:0 auto;
+}
+
+
+/* ############################################################################## */
+/* MAIN CSS */
+/* ############################################################################## */
+	
+.topomain {
+ 	width:900px;
+ 	height:31px;
+	margin: 0 auto;
+ 	background:rgba(39,40,34,1);
+ 	padding-top:10px;
+	padding-bottom:10px;
+	margin-top:-8px;
+	}
+ 	
+.topomain-title {
+	font-size:14px;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color:#fffaf0;
+	margin-top:-35px;
+	margin-left:50px;
+	}
+
+ div.c6 {
+ 	text-align:
+ 	center
+ 	}
+ 	
+ table.camada {
+ 	background:#272822;
+ 	margin-top:0px;
+ 	}
+ 	
+ div.menu {
+ 	float:left;
+ 	width: 125px;
+ 	text-align: left;
+ 	}
+ 	
+ div.c2 {
+ 	height:0px;
+ 	}
+ 
+ .font-white {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #FFF;
+	}
+
+.font-black {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color: #000;
+	}
+
+.subpage {
+	height: 400px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	padding: 0px;
+	color: #FFF;
+	}
+
+.dados_feudo {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin-top: -10px;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	background-color:rgba(0,0,0,0.0);
+	height: 175px;
+	margin-bottom: 0px;
+	}
+	
+.avatar {
+	width: 105px;
+	height: 125px;
+	border:0;
+	float:left;
+	background:rgba(0,0,0,0.0);
+	text-align:center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	margin-top:0px;
+	margin-right:6px;
+	margin-left:3px;
+	padding-top:1px;
+	padding-bottom:5px;
+	}
+
+.fr {
+	float:right;
+	}
+	
+.mgt {
+	margin-right: 20px;
+	margin-left: -22px;
+	margin-bottom: 40px;
+	}
+	
+.fl {
+	float:left;
+	}
+	
+.brb {
+	border-bottom: 1px solid rgba(255,215,0,0.2);
+	margin-left: 20px;
+	width: 732px;
+	margin-bottom: 12px;
+	text-align: left;
+	font-size: 13px;
+	}
+
+.rodape {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	width:900px;
+	height:50px;
+	margin-bottom:0px;
+	background:rgba(0,0,0,0.90);
+	margin-right:-8px;
+	margin-left:-8px;
+	}
+
+.menuimg_div {
+	border-radius: 5px;
+	text-align: left;
+	width:125px;
+	height:140px;
+	padding-top:40px;
+	}
+
+.menuimg_arquivo{
+	width:100%;
+	height:100%;
+	border:0;
+	}
+
+/* ############################################################################## */
+/* CSS do Jogo */
+/* ############################################################################## */
+
+
+.ranking-box{
+	font-size:12px;
+	width:100%;
+	float:left;
+	}
+	
+.rank-div{
+	font-size:12px;
+	clear:both;
+	float:left;
+	}
+	
+.distribui-input {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 50px;
+	height: 21px;
+	color: #90ee90;
+	padding:1px;
+	margin-right:5px;
+	text-align:center;
+	}	
+
+.criapeao-input {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 50px;
+	height: 21px;
+	color: #90ee90;
+	padding:1px;
+ 	margin-right:5px;
+ 	 text-align:center;
+	}		
+
+.criapeao-submit {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 75px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	height: 24px;
+	margin-top:0;
+	}
+
+.avatar-file {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 425px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	height: 24px;
+	margin-top:0;
+	}
+
+.padrao-submit {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 75px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	height: 24px;
+	margin-top:0;
+	}
+
+.criaclan-input {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 150px;
+	height: 21px;
+	color: #90ee90;
+	padding:1px;
+	margin-right:5px;
+	text-align:center;
+	}	
+
+.criaclan-submit {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 75px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	height: 24px;
+	margin-top:0;
+	}
+
+.distribui-submit {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 75px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	height: 24px;
+	margin-top:0;
+	}
+
+.distribui-txt{
+	font-size:12px;
+ 	list-style:none;
+ 	float:left;
+	}
+	
+.box1-feudo{
+	height:50px;
+	}
+	
+.criapeao-box{
+	font-size:12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+	
+.distribui-box{
+	font-size:12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+	
+.conta-box{
+	font-size:12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+	
+.spy-box{
+	font-size:12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+	
+.clan-box{
+	font-size:12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+	
+.combate-box{
+	font-size:12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+	
+.conta-box{
+	font-size:12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+
+.startgame {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	}
+
+.startgametitle {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	font-variant: small-caps;
+	color: #FFF;
+	text-align:center;
+	}
+
+.startgamefundo {
+	padding:4px;
+	margin-top:-0px;
+	background-color: rgba(0,0,0,0.2);
+	color: #FFF;
+	}
+
+.submit_startgame {
+	border: 1px solid #2A292E;
+	background-color: #008b45;
+	width: 100px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 11px;
+	height: 30px;
+	}
+
+.input_startgame {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 98px;
+	height: 18px;
+	color: #90ee90;
+	}
+
+.exibe-origem {
+	text-align:center;
+	margin-right: 25px;
+	}
+
+.box-img { 
+ 	list-style:none;
+	float:left;
+	background: #ccc;
+	width:16.6%;
+	height:35px;
+	margin-right:10px;
+	margin-top:3px;
+	}
+
+.box-img_pequeno { 
+ 	list-style:none;
+	float:left;
+	background: #FFF;
+	width:13%;
+	height:35px;
+	margin-right:10px;
+	margin-top:3px;
+	}
+
+.box-img_mini { 
+ 	list-style:none;
+	float:left;
+	background: #FFF;
+	width:8%;
+	height:35px;
+	margin-right:10px;
+	margin-top:3px;
+	}
+
+.img-dados { 
+	width:100%;
+	height:100%;
+	}
+
+.txt-feudo {
+	width: 105px;
+	font-weight:bold;
+	clear:both;
+	margin-top:0px;
+	color: #FFF;
+	font-size: 11px;
+	}
+
+.txt-desc {
+	font-weight:bold;
+	clear:both;
+	margin-top:0px;
+	}
+
+.txt-dados {
+	clear:both;
+	margin-top:-5px;
+	}
+
+.units-box{
+	font-size:11px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	}
+	
+.samurai-box{
+	font-size:11px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:10px;
+	width: 100%;	
+	}
+	
+.samurai-mgt {
+	margin-right: 10px;
+	margin-bottom: 5px;
+	}
+	
+.samurai-submit {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 75px;
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 11px;
+	height: 24px;
+	margin-top:0;
+	}
+
+.samurai-input {
+	border: 1px solid #363636;
+	background-color: #000;
+	width: 50px;
+	height: 21px;
+	color: #90ee90;
+	padding:1px;
+	margin-right:5px;
+	text-align:center;
+	}	
+
+.units-unidade{
+	font-size:12px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	float:left;
+	width: 50%;
+	}
+	
+.mgtinfo {
+	margin-right: 20px;
+	margin-left: -22px;
+	margin-bottom: 40px;
+	}
+
+
+.rank-feudo-0 {
+	color:white;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	padding:0px;
+	width:100%;
+	height:100%;
+	}
+
+.rank-feudo-1 {
+	color:white;
+	font-family:Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	padding:0px;
+	width:100%;
+	height:100%;
+	text-decoration:line-through;
+	}
+
+.menu-hr {
+	border:red;
+	height:2px;
+	margin:5px 0px;
+	}
+
+.menu-title {
+	color:#FFF;
+	background-color:rgba(255,255,255,0.0);
+	font-size:14px;
+	height:20px;
+	width:100%;
+	font-weight:bold;
+	margin-left:0px;
+	margin-top:3px;
+	text-align:center;
+	}
+
